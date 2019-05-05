@@ -26,7 +26,7 @@ def main():
         ts.LeftDown()
         current = 1
         while current < 10: 
-            time.sleep(480)
+            time.sleep(300)
             ts.WheelDown()
             print('mouse wheel rolled down')
     except: 
